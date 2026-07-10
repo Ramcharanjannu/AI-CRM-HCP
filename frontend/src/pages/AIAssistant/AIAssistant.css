@@ -1,0 +1,63 @@
+.assistant-container{
+
+    display:flex;
+    justify-content:center;
+    padding:40px;
+    background:#f4f7fb;
+    min-height:100vh;
+
+}
+
+.assistant-card{
+
+    background:white;
+    width:800px;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,.1);
+
+}
+
+.assistant-card h1{
+
+    margin-bottom:10px;
+
+}
+
+.assistant-card p{
+
+    color:gray;
+    margin-bottom:20px;
+
+}
+
+.assistant-card label{
+
+    display:block;
+    margin-top:20px;
+    margin-bottom:8px;
+    font-weight:bold;
+
+}
+
+.assistant-card textarea,
+.assistant-card select{
+
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+
+}
+
+.assistant-card button{
+
+    margin-top:20px;
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+
+}
